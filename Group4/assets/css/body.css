@@ -373,66 +373,7 @@ button {
 }
 
 @media screen and (max-width: 560px) {
-<<<<<<< HEAD
 
-  .section {
-    width: 100%;
-    margin: 0;
-  }
-
-  .gallery-container {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-  }
-  .gallery-container .image-holder {
-      width: 100%;
-      height: 1%;
-  }
-  .gallery-container .image-holder img {
-      width: 100%;
-  }
-
-  .About-Us .mt-2 {
-    margin: 20px;
-  }
-
-  .mt-2 {
-    margin: 20px;
-  }
-  
-  .image-wrapper,
-.image-wrapper2 {
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
-
-  .wrapper-content1,
-  .wrapper-content2,
-  .wrapper-content3,
-  .wrapper-content4 {
-    margin: 0 1rem 1rem 1rem;
-    width: 90%;
-  }
-
-  .room-image1,
-  .room-image2,
-  .room-image3 {
-    width: 90%;
-    justify-content: flex-end;
-    background-blend-mode: normal;
-    background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-=======
     .bannerTop {
         height: 20em;
     }
@@ -484,6 +425,14 @@ button {
     .gallery-container .image-holder img {
         width: 100%;
     }
+
+    .wrapper-content1,
+    .wrapper-content2,
+    .wrapper-content3,
+    .wrapper-content4 {
+        margin: 0 1rem 1rem 1rem;
+    }
+    
     .wrapper-content1,
     .wrapper-content2,
     .wrapper-content3,
@@ -498,14 +447,26 @@ button {
         align-items: center;
         text-align: center;
     }
+
+    .image-wrapper,
+    .image-wrapper2 {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      padding: 0 20px;
+    }
+
     .room-image1,
     .room-image2,
     .room-image3 {
-        width: 100%;
+        width: 90%;
         justify-content: flex-end;
         background-blend-mode: normal;
         background-color: rgba(0, 0, 0, 0);
-        margin-bottom: 1em;
+        margin: 0 1rem 1rem 1rem;
     }
     .room-image1 p,
     .room-image2 p,
@@ -544,22 +505,4 @@ button {
     .slide-image, .slide-text {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 320px) {
-    .gallery-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .gallery-container .image-holder {
-        width: 100%;
-        height: 200px;
-    }
-    .gallery-container .image-holder img {
-        width: 100%;
-    }
->>>>>>> 5ff600699c476802ca97621ed233332483a33004
 }
