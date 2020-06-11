@@ -332,123 +332,62 @@ button {
 }
 
 @media screen and (max-width: 560px) {
-  .bannerTop {
-    height: 20em;
-  }
-
-  .gallery-container,
-  .about-us-container,
-  .testimonial-container,
-  .image-wrapper,
-  .image-wrapper2 {
-    margin-top: 25px;
-  }
-
-  .bannerTop h1 {
-    font-size:2em;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .bannerTop p {
-    font-size: 1em;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-
-  }
-
-
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 600;
-    width: 100%;
-    text-align: center;
-    padding: 0px 0 20px 0;
-    position: relative;
-  }
 
   .section {
     width: 100%;
-    margin: 80px auto 0 auto;
-  }
-
-  .image-wrapper,
-  .image-wrapper2 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: column;
+    margin: 0;
   }
 
   .gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
   }
-
   .gallery-container .image-holder {
-    width: 50%;
-    height: 40vw;
-
+      width: 100%;
+      height: 1%;
   }
-
   .gallery-container .image-holder img {
-    width: 100%;
+      width: 100%;
   }
+
+  .About-Us .mt-2 {
+    margin: 20px;
+  }
+
+  .mt-2 {
+    margin: 20px;
+  }
+  
+  .image-wrapper,
+.image-wrapper2 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
 
   .wrapper-content1,
   .wrapper-content2,
   .wrapper-content3,
-  .wrapper-content4,
-  .room-image1,
-  .room-image2,
-  .room-image3 {
-    height: 19em;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .wrapper-content4 {
+    margin: 0 1rem 1rem 1rem;
+    width: 90%;
   }
 
   .room-image1,
   .room-image2,
   .room-image3 {
-    width: 100%;
+    width: 90%;
     justify-content: flex-end;
     background-blend-mode: normal;
     background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 1em;
-  }
-
-  .room-image1 p,
-  .room-image2 p,
-  .room-image3 p {
-    height: 15%;
-    width: 100%;
-    padding: 15px 10px;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .gallery-container .image-holder {
-    width:100%;
-    height: 200px;
-
-  }
-
-  .gallery-container .image-holder img {
-    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
